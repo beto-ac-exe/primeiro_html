@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="body">
+    <div class="barra-acessibilidade" role="toolbar" aria-label="Acessibilidade">
+        <span>Fonte:</span>
+        <button id="btn-decrease-font" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte">A−</button>
+        <button id="btn-reset-font"    title="Tamanho padrão" aria-label="Redefinir tamanho da fonte">A</button>
+        <button id="btn-increase-font" title="Aumentar fonte"  aria-label="Aumentar tamanho da fonte">A+</button>
+        <button id="btn-dark-mode" aria-pressed="false">🌙 Modo Noturno</button>
+    </div>
+
+    <nav class="container">
+        <h1 class="titulo">Meu Blog</h1>
+        <ul id="lista">
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>Sobre Mim</b></a></li>
+            <li><a href="curriculum.html"><b>Meu Repertório</b></a></li>
+            <li><a href="receitas.html"><b>Receitas Favoritas</b></a></li>
+            <li><a href="contact.html"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+
+    <main class="texto">
+        <p><b>Este site foi desenvolvido como parte de um trabalho acadêmico da disciplina de Web Lab, ministrada pelo
+                professor Pablo Leon, da Universidade de Passo Fundo (UPF). O projeto tem como objetivo aplicar, na
+                prática, os conhecimentos adquiridos durante as aulas, utilizando tecnologias de desenvolvimento web
+                para a criação de uma página funcional e organizada.
+                Durante o desenvolvimento deste trabalho, foram explorados conceitos fundamentais de HTML, CSS e
+                JavaScript, permitindo a construção de uma interface moderna, responsiva e de fácil utilização. Este
+                projeto representa uma oportunidade de colocar em prática as técnicas estudadas ao longo da disciplina e
+                demonstrar as habilidades desenvolvidas na área de desenvolvimento web.
+            </b></p>
+    </main>
+    <hr id="hr">
+    <h1 id="noticias">Notícias</h1>
+    <div class="divpai">
+        <div class="galeria">
+            <a href="https://www.cidadefm1049.com.br/site/noticias/copa-do-mundo-2026-entenda-como-ser-sorteio-dos-grupos-definidos-hoje"
+                target="_blank">
+                <img src="./assets/images.jpg" class="foto">
+            </a>
+            <h3 class="textonoticia">Copa do mundo 2026; entenda como será sorteio dos grupos definidos hoje</h3>
+        </div>
+        <div class="galeria">
+            <a href="https://canaltech.com.br/hardware/asus-revela-rtx-5090-com-5-kg-de-ouro-que-custa-bilhoes-de-reais/"
+                target="_blank">
+                <img src="./assets/foto.jpeg" class="foto">
+            </a>
+            <h3 class="textonoticia">ASUS revela RTX 5090 com 5 kg de ouro que custa milhões de reais</h3>
+        </div>
+        <div class="galeria">
+            <a href="https://motor1.uol.com.br/news/758865/rockstar-lanca-segundo-trailer-gta6/" target="_blank">
+                <img src="./assets/gta6.jpg" class="foto">
+            </a>
+            <h3 class="textonoticia">Rockstar Games revela 2º trailer de GTA VI com mais jogabilidade e história</h3>
+        </div>
+        <div class="galeria">
+            <a href="https://www.band.com.br/esportes/futebol/copa-do-mundo/noticias/scaloni-quebra-o-silencio-sobre-lesao-de-messi-as-vesperas-da-copa-202605262150"
+                target="_blank">
+                <img src="./assets/messigoat.jpg" class="foto">
+            </a>
+            <h3 class="textonoticia">Esporte: Scaloni quebra o silêncio sobre lesão de Messi às vésperas da Copa</h3>
+        </div>
+    </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

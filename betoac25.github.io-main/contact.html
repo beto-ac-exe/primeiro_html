@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body">
+    <div class="barra-acessibilidade" role="toolbar" aria-label="Acessibilidade">
+        <span>Fonte:</span>
+        <button id="btn-decrease-font" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte">A−</button>
+        <button id="btn-reset-font"    title="Tamanho padrão" aria-label="Redefinir tamanho da fonte">A</button>
+        <button id="btn-increase-font" title="Aumentar fonte"  aria-label="Aumentar tamanho da fonte">A+</button>
+        <button id="btn-dark-mode" aria-pressed="false">🌙 Modo Noturno</button>
+    </div>
+
+     <nav class="container">
+        <h1 class="titulo">Contatos</h1>
+        <ul id="lista">
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>Sobre Mim</b></a></li>
+            <li><a href="curriculum.html"><b>Meu Repertório</b></a></li>
+            <li><a href="receitas.html"><b>Receitas Favoritas</b></a></li>
+            <li><a href="contact.html"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="tabela">Formulário de Contato</h2>
+
+    <form class="tabela">
+        <p>
+            <label for="campo-nome">Nome:</label><br>
+            <input type="text" id="campo-nome" name="nome" required>
+        </p>
+
+        <p>
+            <label for="campo-email">E-mail:</label><br>
+            <input type="email" id="campo-email" name="email" required>
+        </p>
+
+        <p>
+            <label for="campo-mensagem">Mensagem:</label><br>
+            <textarea id="campo-mensagem" name="mensagem" rows="5" required></textarea>
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+        <ul class="fotopequena">
+            <li>
+                <img src="./assets/insta.avif" alt="foto insta">
+                <a href="https://www.instagram.com/beto_constantino_/?__d=1%2F%3Fhidemenu%3Dtrue">@beto_constantino_</a>
+            </li>
+            <li>
+                <img src="./assets/github.png" alt="foto github">
+                <a href="https://github.com/beto255">beto255</a>
+            </li>
+            <li>
+                <img src="./assets/facebook.png" alt="foto facebook">
+                <a href="">@beto_constantino_</a>
+            </li>
+            <li>
+                <img src="./assets/linkedin.png" alt="foto insta">
+                <a href="">@beto_constantino_</a>
+            </li>
+        </ul>
+    </main>
+    <hr id="hr">
+    <script src="./js/script.js"></script>
+</body>
+</html>
